@@ -13,7 +13,7 @@ class RateLimit extends ThrottleRequests
                 $request->root(),
                 $request->path(),
                 $request->ip(),
-                $request->query('access_token')
+                $request->query('access_token'),
             ]
         ));
     }

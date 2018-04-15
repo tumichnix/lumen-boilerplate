@@ -52,6 +52,7 @@ abstract class ApiException extends BaseException
         } else {
             $this->details[$key] = $value;
         }
+
         return $this;
     }
 }
