@@ -2,16 +2,16 @@
 
 namespace App\Exceptions;
 
-use App\Exceptions\Api\NotFoundException;
-use App\Traits\ApiTrait;
 use Exception;
+use App\Traits\ApiTrait;
+use App\Exceptions\Api\NotFoundException;
 use Illuminate\Validation\ValidationException;
 use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Laravel\Lumen\Exceptions\Handler as ExceptionHandler;
 use Symfony\Component\HttpKernel\Exception\HttpException;
-use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Tumichnix\Maintenance\Exceptions\MaintenanceException;
+use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 class Handler extends ExceptionHandler
 {

@@ -2,8 +2,8 @@
 
 namespace App\Exceptions\Api;
 
-use App\Foundations\ApiException;
 use Illuminate\Http\Response;
+use App\Foundations\ApiException;
 
 class MaintenanceException extends ApiException
 {

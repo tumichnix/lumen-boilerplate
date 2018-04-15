@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers\Api;
 
-use App\Exceptions\Api\NotFoundException;
-use App\Foundations\ApiController;
 use Illuminate\Http\JsonResponse;
+use App\Foundations\ApiController;
+use App\Exceptions\Api\NotFoundException;
 
 class MiscController extends ApiController
 {
