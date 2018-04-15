@@ -1,7 +1,7 @@
 /packages
 /vendor
 /.idea
-/storage/framework/down
+/storage/framework/maintenance
 Homestead.json
 Homestead.yaml
 .env
