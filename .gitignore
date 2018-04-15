@@ -1,0 +1,7 @@
+/packages
+/vendor
+/.idea
+/storage/framework/down
+Homestead.json
+Homestead.yaml
+.env
