@@ -10,7 +10,6 @@ class MiscController extends ApiController
 {
     public function getPing(): JsonResponse
     {
-        throw new NotFoundException();
         return $this->json([
             'ping' => 'pong',
         ]);
